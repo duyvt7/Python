@@ -15,5 +15,5 @@ for x in students:
     if x[1]== secondLowest:
         desireStudent.append(x[0])
 
-print(desireStudent)
+print('\n'.join(sorted(desireStudents)))
 
