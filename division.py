@@ -8,3 +8,4 @@ a = int(input('nhap vvao so a = '))
 b = int(input('nhap vvao so b = '))
 print(f' integer division = {a//b}')
 print(f'float division result = {a/b}')
+#add a comment
