@@ -7,4 +7,4 @@ a = int(input('nhap vao so a = '))
 b = int(input('nhap vao so b = '))
 print  (a+b)
 print(a-b)
-print(a*b)
+print(a*b)#

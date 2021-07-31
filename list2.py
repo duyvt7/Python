@@ -1,5 +1,5 @@
 T = int(raw_input().strip())
-
+#
 L = []
 for t in range(T):
     args = raw_input().strip().split(" ")

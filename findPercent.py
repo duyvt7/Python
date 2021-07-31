@@ -16,3 +16,4 @@ if __name__ == '__main__':
                 count += 1
             average = sum/count
             print("{:.2f}".format(average))
+#
