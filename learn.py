@@ -69,6 +69,6 @@ print(x) #return x is a list
 a= 'python'
 print(a+b)
 x,y,z=3,4,5
-txt='i want to buy {} eggs with price {} total {}'
+txt='i want to buy\' {} \'eggs\n with price {} \n\t\btotal {}'
 print(txt.format(x,y,z))
 
