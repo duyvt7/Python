@@ -84,5 +84,19 @@ x= ['a','b']
 thislist.extend(x)
 print(thislist)
 
+# thislist.pop(3)
+# thislist.remove('orange')
+# thislist.clear()
 # del thislist
+
+# for i in thislist: 
+#     print(i)
+# for i in range(len(thislist)):
+#     print(thislist[i])
+# i=0
+# while i < len(thislist):
+#     print(thislist[i])
+#     i=i+1
+
+[print(x) for x in thislist if 'a' in x]
 print(thislist)
