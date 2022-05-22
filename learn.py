@@ -98,5 +98,23 @@ print(thislist)
 #     print(thislist[i])
 #     i=i+1
 
-[print(x) for x in thislist if 'a' in x]
+# [print(x) for x in thislist if 'a' in x]
+
+# thislist.sort(reverse=True)
+# print(thislist)
+
+# thislist = [100, 50, 65, 82, 23]
+# def myFunc(n):
+#     return abs(n-50)
+
+# thislist.sort(key=myFunc)
+# print(thislist)
+# list = thislist.copy()
+# print(list)
+
+secondlist=['a','b','c']
+list2=list(secondlist)
+print(list2)
+print(thislist)
+thislist.extend(secondlist)
 print(thislist)
