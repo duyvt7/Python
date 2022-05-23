@@ -72,22 +72,51 @@ gfasfsd
 # txt='i want to buy\' {} \'eggs\n with price {} \n\t\btotal {}'
 # print(txt.format(x,y,z))
 
-class myclass:
+# class myclass:
+#   x=5
+# a=myclass()
+# print(a.x)
+# class person:
+#   def __init__(self,fname,lname):
+#     self.fname=fname
+#     self.lname=lname
+#   def myMed(abc):
+#     print('Hello, my name is '+abc.fname)
+
+# A=person('duy','vu')
+# print(A.fname, A.lname)
+# A.myMed()
+# A.fname='Duy'
+# print(A.fname)
+# # del A.lname
+
+class myClass:
   x=5
-a=myclass()
-print(a.x)
+p1=myClass()
+print(p1.x)
+
 class person:
-  def __init__(self,fname,lname):
-    self.fname=fname
-    self.lname=lname
-  def myMed(abc):
-    print('Hello, my name is '+abc.fname)
+  def __init__(abc, name, age):
+    abc.name=name
+    abc.age=age
+  def hello(abc):
+    print('hello, my name is '+ abc.name )
 
-A=person('duy','vu')
-print(A.fname, A.lname)
-A.myMed()
-A.fname='Duy'
-print(A.fname)
-del A.lname
+# class student(person):
+#   def __init__(abc, name, age):
+#     person.__init__(abc, name,age)
 
+class student(person):
+  def __init__(abc, name, age, year):
+      super().__init__(name, age)
+      abc.graduationYear=year
+  def welcome(wc):
+    print('welcome', wc.name, wc.age, "to the class ", wc.graduationYear)
 
+A=person('Duy',30)
+print(A.age, A.name)
+      
+B=student('Hung',20, 2022)
+print(B.name)
+print(B.graduationYear)
+B.welcome()
