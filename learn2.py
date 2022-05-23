@@ -25,16 +25,46 @@
 
 # print ('hello world with')
 
-mylist=['apple', 'orange','banana', 'apple', 'orange','banana']
-# mylist=mylist*2
-mylist[-3:-1]=['orange', 'apple']
+# mylist=['apple', 'orange','banana', 'apple', 'orange','banana']
+# # mylist=mylist*2
+# mylist[-3:-1]=['orange', 'apple']
 
-mylist.append('hello')
-mylist.insert(2,"pineapple")
-mylist.extend([2,3,4])
+# mylist.append('hello')
+# mylist.insert(2,"pineapple")
+# mylist.extend([2,3,4])
 
-mylist.remove('banana')
-mylist.pop(0)
-# del mylist
-mylist.clear()
-print(mylist)
+# mylist.remove('banana')
+# mylist.pop(0)
+# # del mylist
+# # mylist.clear()
+# print(mylist)
+# for x in range(len(mylist)) :
+#     print(mylist[x])
+# i=0
+# print
+# while i< len(mylist):
+#     print(mylist[i])
+#     i=i+1
+# newlist = [x for x in mylist if 'c' in x]
+# print(newlist)
+
+# mytuple=('apple', 'orange','banana', 'apple', 'orange','banana')
+def myFunc():
+    print('hello')
+myFunc()
+def person(name, age):
+    print(name , age)
+person("duy",17)
+
+def myFunction(*kid):
+    print(kid)
+myFunction('duy', 'vu', 'hoang')
+
+def myFunc2(child1,child2,child3):
+    print(child3)
+myFunc2(child1='a',child2='b', child3='c')
+
+def myFunc3(**kid):
+    print('his name is'+kid['lname'])
+
+myFunc3(fname='a', lname='b')
