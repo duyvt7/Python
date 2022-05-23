@@ -57,18 +57,22 @@ gfasfsd
 #     print('no')
 # for i in x:
 #     print(i)
-b = " Hello, World!  "
+# b = " Hello, World!  "
 # print(b[2:5])
 # print(b[5:])
 # print(b[-7:-1])
-print(b.upper())
-print(b.lower())
-print(b.strip())
-x=b.split(',')
-print(x) #return x is a list
-a= 'python'
-print(a+b)
-x,y,z=3,4,5
-txt='i want to buy\' {} \'eggs\n with price {} \n\t\btotal {}'
-print(txt.format(x,y,z))
+# print(b.upper())
+# print(b.lower())
+# print(b.strip())
+# x=b.split(',')
+# print(x) #return x is a list
+# a= 'python'
+# print(a+b)
+# x,y,z=3,4,5
+# txt='i want to buy\' {} \'eggs\n with price {} \n\t\btotal {}'
+# print(txt.format(x,y,z))
 
+class myClass:
+    x=5
+y=myClass()
+print(y.x)
