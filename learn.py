@@ -72,94 +72,22 @@ gfasfsd
 # txt='i want to buy\' {} \'eggs\n with price {} \n\t\btotal {}'
 # print(txt.format(x,y,z))
 
-<<<<<<< HEAD
-class myClass:
-    x=5
-y=myClass()
-print(y.x)
-=======
-# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# # print(thislist)
-# thislist[1:3]=["kiwi"]
-# print(thislist)
-# x= ['a','b']
-# thislist.append(x)
-# print(thislist)
-# thislist.insert(3,x)
-# print(thislist)
-# thislist.extend(x)
-# print(thislist)
+class myclass:
+  x=5
+a=myclass()
+print(a.x)
+class person:
+  def __init__(self,fname,lname):
+    self.fname=fname
+    self.lname=lname
+  def myMed(abc):
+    print('Hello, my name is '+abc.fname)
 
-# thislist.pop(3)
-# thislist.remove('orange')
-# thislist.clear()
-# del thislist
-
-# for i in thislist: 
-#     print(i)
-# for i in range(len(thislist)):
-#     print(thislist[i])
-# i=0
-# while i < len(thislist):
-#     print(thislist[i])
-#     i=i+1
-
-# [print(x) for x in thislist if 'a' in x]
-
-# thislist.sort(reverse=True)
-# print(thislist)
-
-# thislist = [100, 50, 65, 82, 23]
-# def myFunc(n):
-#     return abs(n-50)
-
-# thislist.sort(key=myFunc)
-# print(thislist)
-# list = thislist.copy()
-# print(list)
-
-# secondlist=['a','b','c']
-# list2=list(secondlist)
-# print(list2)
-# print(thislist)
-# thislist.extend(secondlist)
-# print(thislist)
+A=person('duy','vu')
+print(A.fname, A.lname)
+A.myMed()
+A.fname='Duy'
+print(A.fname)
+del A.lname
 
 
-# print(mytuple[-3:-1])
-# if 'apple' in mytuple:
-#     print('yes')
-# else:
-#     print('no')
-
-# mytuple=list(mytuple)
-# # print(type(mytuple))
-# mytuple.pop(3)
-# mytuple=tuple(mytuple)
-# print(mytuple)
-# mytuple2=('a','b','c')
-# mytuple2.append('a')
-# print(mytuple2)
-
-# (a,*b,c)=mytuple
-# print(a)
-# print(b)
-# print(c)
-
-# for i in range(len(mytuple)):
-#     print(mytuple[i])
-# mytuple = ("apple", "banana", "cherry","apple", "banana", "cherry")
-# i=0
-# while i < len(mytuple):
-#     print(mytuple[i])
-#     i=i+1
-
-# mytuple=mytuple*2
-# print(mytuple)
-
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
->>>>>>> f2da862597b0afdfe840f5176a63ffd26c0cd97c
