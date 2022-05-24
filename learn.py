@@ -90,33 +90,57 @@ gfasfsd
 # print(A.fname)
 # # del A.lname
 
-class myClass:
-  x=5
-p1=myClass()
-print(p1.x)
+# class myClass:
+#   x=5
+# p1=myClass()
+# print(p1.x)
 
-class person:
-  def __init__(abc, name, age):
-    abc.name=name
-    abc.age=age
-  def hello(abc):
-    print('hello, my name is '+ abc.name )
+# class person:
+#   def __init__(abc, name, age):
+#     abc.name=name
+#     abc.age=age
+#   def hello(abc):
+#     print('hello, my name is '+ abc.name )
+
+# # class student(person):
+# #   def __init__(abc, name, age):
+# #     person.__init__(abc, name,age)
 
 # class student(person):
-#   def __init__(abc, name, age):
-#     person.__init__(abc, name,age)
+#   def __init__(abc, name, age, year):
+#       super().__init__(name, age)
+#       abc.graduationYear=year
+#   def welcome(wc):
+#     print('welcome', wc.name, wc.age, "to the class ", wc.graduationYear)
 
-class student(person):
-  def __init__(abc, name, age, year):
-      super().__init__(name, age)
-      abc.graduationYear=year
-  def welcome(wc):
-    print('welcome', wc.name, wc.age, "to the class ", wc.graduationYear)
-
-A=person('Duy',30)
-print(A.age, A.name)
+# A=person('Duy',30)
+# print(A.age, A.name)
       
-B=student('Hung',20, 2022)
+# B=student('Hung',20, 2022)
+# print(B.name)
+# print(B.graduationYear)
+# B.welcome()
+
+class car:
+  def __init__(self,color,year):
+      self.year=year
+      self.color=color
+  def myCar(abc):
+    print('the car color ', abc.color, ' is mine' )
+
+# class toyota(car):
+#   def __init__(self, color, year, name):
+#       car.__init__(self, color, year)
+#       self.name=name
+
+class toyota(car):
+  def __init__(self, color, year, name):
+      super().__init__( color, year)
+      self.name=name
+
+A=car('red',2019)
+print(A.color,A.year)
+A.myCar()
+B=toyota('grey',2022, 'vios')
 print(B.name)
-print(B.graduationYear)
-B.welcome()
+B.myCar()
