@@ -49,22 +49,40 @@
 # print(newlist)
 
 # mytuple=('apple', 'orange','banana', 'apple', 'orange','banana')
-def myFunc():
-    print('hello')
-myFunc()
-def person(name, age):
-    print(name , age)
-person("duy",17)
+# def myFunc():
+#     print('hello')
+# myFunc()
+# def person(name, age):
+#     print(name , age)
+# person("duy",17)
 
-def myFunction(*kid):
+# def myFunction(*kid):
+#     print(kid)
+# myFunction('duy', 'vu', 'hoang')
+
+# def myFunc2(child1,child2,child3):
+#     print(child3)
+# myFunc2(child1='a',child2='b', child3='c')
+
+# def myFunc3(**kid):
+#     print('his name is'+kid['lname'])
+
+# myFunc3(fname='a', lname='b')
+
+def myFunction(x):
+    print(x)
+
+def student(age, grade):
+    print(age, grade)
+
+student(5,6)
+
+def func2(*kid):
     print(kid)
-myFunction('duy', 'vu', 'hoang')
 
-def myFunc2(child1,child2,child3):
-    print(child3)
-myFunc2(child1='a',child2='b', child3='c')
+func2('duy','vu','thu')
 
-def myFunc3(**kid):
-    print('his name is'+kid['lname'])
+def func3(child1, child2, child3):
+    print(child1, child2, child3)
 
-myFunc3(fname='a', lname='b')
+func3(child1='a', child2='b', child3='3')
