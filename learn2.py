@@ -124,3 +124,8 @@ A.buy()
 
 B=LG(32, 2022)
 print(B.size)
+
+def myfunc():
+    print('Hello')
+
+myfunc()
