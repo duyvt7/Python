@@ -28,5 +28,16 @@
 # else:
 #     print('the file does not exists')
 
-import mymodule
-mymodule.myfunc()
+# import mymodule
+# mymodule.myfunc()
+
+# from mymodule import person
+# a=person['age']
+# print(a)
+
+# import mymodule as mm
+# mm.myfunc()
+
+# import platform
+# x=dir(platform)
+# print(x)
