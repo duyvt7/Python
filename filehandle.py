@@ -41,3 +41,7 @@
 # import platform
 # x=dir(platform)
 # print(x)
+
+import datetime
+x=dir(datetime)
+print(x)
