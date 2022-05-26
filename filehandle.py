@@ -22,8 +22,11 @@
 # f=open('newfile.txt','r')
 # print(f.read())
 
-import os
-if os.path.exists('newfile.txt'):
-    os.remove('newfile.txt')
-else:
-    print('the file does not exists')
+# import os
+# if os.path.exists('newfile.txt'):
+#     os.remove('newfile.txt')
+# else:
+#     print('the file does not exists')
+
+import mymodule
+mymodule.myfunc()
