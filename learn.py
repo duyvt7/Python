@@ -145,4 +145,8 @@
 # print(B.name)
 # B.myCar()
 
-abc
+def myfunc():
+  print('hello')
+
+myfunc()
+
