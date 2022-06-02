@@ -42,6 +42,11 @@
 # x=dir(platform)
 # print(x)
 
-import datetime
-x=dir(datetime)
-print(x)
+# import datetime
+# x=dir(datetime)
+# print(x)
+
+f= open('file','a')
+print(f.read)
+import os
+os.remove('D:\Duy\DataAnalyst\Python practice\file')
