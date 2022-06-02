@@ -55,4 +55,7 @@ print(x)
 
 a=tuple(b)
 
-
+import mymodule as md
+md.myfunc()
+a=md.person['age']
+print(a)
