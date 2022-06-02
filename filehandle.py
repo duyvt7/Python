@@ -1,52 +1,10 @@
-# f= open('demofile.txt', 'r')
-# print(f.read(5))
-# print(f.readline())
-# print(f.readline())
-# print(f.readline())
-
-# f=open('demofile.txt','r')
-# for x in f:
-#     print(x)
-# f.close()
-# f=open('demofile.txt', 'a')
-# f.write('\nsome content to the file')
-# f=open('demofile.txt', 'r')
-# print(f.read())
-# f= open('demofile.txt', 'w')
-# f.write('i deleted old content')
-# f=open('demofile.txt','r')
-# print(f.read())
-# f.close()
-# f=open('newfile.txt','w')
-# f.write('new file created')
-# f=open('newfile.txt','r')
-# print(f.read())
-
-# import os
-# if os.path.exists('newfile.txt'):
-#     os.remove('newfile.txt')
-# else:
-#     print('the file does not exists')
-
-# import mymodule
-# mymodule.myfunc()
-
-# from mymodule import person
-# a=person['age']
-# print(a)
-
-# import mymodule as mm
-# mm.myfunc()
-
-# import platform
-# x=dir(platform)
-# print(x)
-
-# import datetime
-# x=dir(datetime)
-# print(x)
-
-f= open('file','a')
-print(f.read)
 import os
-os.remove('D:\Duy\DataAnalyst\Python practice\file')
+f=open('file','r')
+print(f.readline())
+c=open('file','w')
+c.write('\n them vao cho zui')
+c.close()
+f=open('file','r')
+print(f.read())
+f.close()
+os.remove('file')
